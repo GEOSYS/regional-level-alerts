@@ -67,7 +67,7 @@ logger.setLevel(logging.INFO)
 load_dotenv()
 
 
-@app.post("/regional-level-alerts/get_weather_alerts", tags=["Regional Level Alerts"])
+@app.post("/regional-level-alerts/get_weather_alerts", tags=["Analytic Computation"])
 async def get_weather_alerts(item: WeatherAlertParameters,
                              blockCode: AgriquestBlockCodes.codes,
                              weatherType: AgriquestWeatherTypeCodes.codes,
@@ -111,7 +111,7 @@ async def get_weather_alerts(item: WeatherAlertParameters,
         raise HTTPException(status_code = HTTPStatus.INTERNAL_SERVER_ERROR, detail = str(exc))
 
 
-@app.post("/regional-level-alerts/get_vegetation_alerts", tags=["Regional Level Alerts"])
+@app.post("/regional-level-alerts/get_vegetation_alerts", tags=["Analytic Computation"])
 async def get_vegetation_alerts(item: VegetationAlertParameters,
                                 blockCode: AgriquestBlockCodes.codes,
                                 operator: utils.NumbersComparisonOperator):

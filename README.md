@@ -44,7 +44,7 @@
 <!-- TABLE OF CONTENTS -->
 <details open>
   <summary>Table of Contents</summary>
-  <ol>
+  
 - [About The Project](#about-the-project)
 - [Getting Started](#getting-started)
   * [Prerequisite](#prerequisite)
@@ -58,7 +58,7 @@
 - [License](#license)
 - [Contact](#contact)
 - [Copyrights](#copyrights)
-  </ol>
+
 </details>
 
 <!-- ABOUT THE PROJECT -->
@@ -246,26 +246,25 @@ Body Example:
 <!-- PROJECT ORGANIZATION -->
 ## Project Organization
 
-    ├── README.md          <- The top-level README for developers using this project.
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
+
+    ├── README.md         
+    ├── notebooks          
+    ├── requirements.txt    
+    ├── environment.yml   
     │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
-    ├── environment.yml    <- The conda requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `conda env export > environment.yml`, or manually
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├───src                <- Source code for use in tis project.
+    ├── setup.py           																								   
+    ├───src                
     │   ├───main.py 
     │   ├───api
+    │   │   ├── files
+    │   │   │   └── favicon.svg
     │   │   ├── __init__.py
     │   │   └── api.py
     │   └───regionallevelalerts
     │       ├── __init__.py
-    │       └── regionallevelalerts.py
-    └── tests 
+    │       ├── processor.py
+    │       └── utils.py      
+    └── tests  
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
