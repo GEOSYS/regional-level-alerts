@@ -153,7 +153,7 @@ To use the project with Jupyter Notebook, follow these steps:
 
     
     ```
-    conda create -y --name demo_regionallevelalerts python=3.9
+    conda create -y --name demo_regionallevelalerts
     ```
 
 
