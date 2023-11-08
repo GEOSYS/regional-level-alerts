@@ -13,7 +13,7 @@
     <img src="https://earthdailyagro.com/wp-content/uploads/2022/01/Logo.svg" alt="Logo" width="400" height="200">
   </a>
 
-  <h1 align="center">Regional Level Alerts</h1>
+  <h1 align="center">Regional Level Alerts Processor</h1>
 
   <p align="center">
     Learn how to use &ltgeosys/&gt platform capabilities in your own business workflow! Build your processor and learn how to run them on your platform.
@@ -21,9 +21,9 @@
     <a href="https://earthdailyagro.com/"><strong>Who we are</strong></a>
     <br />
     <br />
-    <a href="https://github.com/GEOSYS/GeosysPy/issues">Report Bug</a>
+    <a href="https://github.com/GEOSYS/regional-level-alerts-processor/issues">Report Bug</a>
     ·
-    <a href="https://github.com/GEOSYS/GeosysPy/issues">Request Feature</a>
+    <a href="https://github.com/GEOSYS/regional-level-alerts-processor/issues">Request Feature</a>
   </p>
 </p>
 
@@ -298,7 +298,7 @@ For any additonal information, please [email us](mailto:sales@earthdailyagro.com
 
 ## Copyrights
 
-© 2022 Geosys Holdings ULC, an Antarctica Capital portfolio company | All Rights Reserved.
+© 2023 Geosys Holdings ULC, an Antarctica Capital portfolio company | All Rights Reserved.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -310,9 +310,9 @@ For any additonal information, please [email us](mailto:sales@earthdailyagro.com
 [contributors-url]: https://github.com/github_username/repo/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/github_username/repo.svg?style=plastic&logo=appveyor
 [forks-url]: https://github.com/github_username/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/qgis-plugin/repo.svg?style=plastic&logo=appveyor
+[stars-shield]: https://img.shields.io/github/stars/regional-level-alerts-processor/repo.svg?style=plastic&logo=appveyor
 [stars-url]: https://github.com/github_username/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/GEOSYS/GeosysPy/repo.svg?style=social
+[issues-shield]: https://img.shields.io/github/issues/GEOSYS/regional-level-alerts-processor/repo.svg?style=social
 [issues-url]: https://github.com/github_username/repo/issues
 [license-shield]: https://img.shields.io/github/license/GEOSYS/qgis-plugin
 [license-url]: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -326,8 +326,8 @@ For any additonal information, please [email us](mailto:sales@earthdailyagro.com
 [language-python-url]: https://pypi.org/ 
 [GitStars-shield]: https://img.shields.io/github/stars/GEOSYS?style=social
 [GitStars-url]: https://img.shields.io/github/stars/GEOSYS?style=social
-[CITest-shield]: https://img.shields.io/github/workflow/status/GEOSYS/GeosysPy/Continous%20Integration
-[CITest-url]: https://img.shields.io/github/workflow/status/GEOSYS/GeosysPy/Continous%20Integration
+[CITest-shield]: https://img.shields.io/github/workflow/status/GEOSYS/regional-level-alerts-processor/Continous%20Integration
+[CITest-url]: https://img.shields.io/github/workflow/status/GEOSYS/regional-level-alerts-processor/Continous%20Integration
 
 
 
